@@ -6,7 +6,6 @@ use routers::{router_games, router_pages};
 use tokio::net::TcpListener;
 
 mod routers;
-mod routes;
 
 pub struct Server {
     port_pages: u16,
